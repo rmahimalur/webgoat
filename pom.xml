@@ -241,6 +241,12 @@
                 <artifactId>webdrivermanager</artifactId>
                 <version>${webdriver.version}</version>
             </dependency>
+            <dependency>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.8.5</version>
+              <type>maven-plugin</type>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
